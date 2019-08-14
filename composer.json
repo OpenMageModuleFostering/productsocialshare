@@ -1,9 +1,9 @@
 {
     "name": "OpenMageModuleFostering/productsocialshare",
     "type": "magento-module",
-    "license": "Academic-Free-License",
+    "license": "-Academic-Free-License",
     "homepage": "",
-    "description": "Let Admin to share  the products on popular social networks such as Facebook, Twitter ,Google Plus and Pinterest.",
+    "description": "Let Admin to share the products on popular social networks.",
     "authors": [
     {
         "name": "Cartin24",

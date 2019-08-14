@@ -1,6 +1,4 @@
-
 <?php
-
 /**
  * Cartin24
  * @package    Cartin24_ProductShare

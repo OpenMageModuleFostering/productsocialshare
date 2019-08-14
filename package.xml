@@ -1,18 +1,41 @@
 <?xml version="1.0"?>
 <package>
     <name>productsocialshare</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <stability>stable</stability>
-    <license>Academic Free License</license>
+    <license> Academic Free License</license>
     <channel>community</channel>
     <extends/>
-    <summary>Let Admin to share  the products on popular social networks such as Facebook, Twitter ,Google Plus and Pinterest.</summary>
-    <description>&#x201C;Backend Product Social Share&#x201C; let Admin to share  the products on popular social networks such as Facebook, Twitter ,Google Plus and Pinterest.</description>
-    <notes>&#x201C;Backend Product Social Share&#x201C; let Admin to share  the products on popular social networks such as Facebook, Twitter ,Google Plus and Pinterest.</notes>
+    <summary>Let Admin to share the products on popular social networks.</summary>
+    <description>&lt;p&gt;&#x201C;Backend Product Social Share&#x201C; let Admin to share  the products on popular social networks such as Facebook, Twitter,Google Plus and Pinterest.It allows us to share each product on popular social media at a single click from backend.This will enhance your product sales to a large extend.&lt;/p&gt;&#xD;
+&#xD;
+&lt;h3&gt;Features:&lt;/h3&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;It is very easy to install and use.&lt;/li&gt;&#xD;
+&lt;li&gt;Admin can share products from backend on popular social networks.&lt;/li&gt;&#xD;
+&lt;li&gt;Admin can enable/disable perticular social sharing link from backend.&lt;/li&gt;&#xD;
+&lt;li&gt;Compatible With Magento Community Editions.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;h3&gt;&lt;a href="http://cartin24.com/extensions/backend-product-social-share.html"&gt;Click Here for the demo &lt;/a&gt;&lt;/h3&gt;&#xD;
+&lt;h3&gt;Installation&lt;/h3&gt;&#xD;
+&lt;ol&gt;&#xD;
+&lt;li&gt;Install the extension through Magento Connect.&lt;/li&gt;&#xD;
+&lt;li&gt;Go to System &amp;gt; Cache Management &amp;gt; Click button Flush Magneto Cache.&lt;/li&gt;&#xD;
+&lt;li&gt; Logout out and re-login.&lt;/li&gt;&#xD;
+Note: Make sure that you have compilation disabled before installing extension. System &amp;gt; Tools &amp;gt; Compilation page and click on Disable button. After Installation you can enable compilation back.&#xD;
+&lt;/ol&gt;&#xD;
+&lt;h3&gt;Usage&lt;/h3&gt;&#xD;
+&lt;ol&gt;&#xD;
+In the backend,&#xD;
+&lt;li&gt; Enable/disable the Social Sharing Links from System-&amp;gt;Configuration-&amp;gt;Product Share settings.&lt;/li&gt;&#xD;
+&lt;li&gt;Click on Promotions-&amp;gt;Product Share to view products in your site and share them on popular  social networks such as Facebook, Twitter ,Google Plus and Pinterest.&lt;/li&gt;&#xD;
+&lt;/ol&gt;&#xD;
+</description>
+    <notes>Config file fix</notes>
     <authors><author><name>Cartin24</name><user>Cartin24</user><email>developer@cartin24.com</email></author></authors>
-    <date>2015-03-31</date>
-    <time>12:38:40</time>
-    <contents><target name="magecommunity"><dir name="Cartin24"><dir name="ProductShare"><dir name="Block"><dir name="Adminhtml"><dir name="Share"><dir name="Grid"><dir name="Renderer"><file name="Image.php" hash="b55077fb61e6025897188e0a381bab14"/></dir></dir></dir></dir><dir name="Share"><file name="Grid.php" hash="899d596d1ff8ecbc33086c448723f04e"/></dir><dir name="Widget"><dir name="Grid"><dir name="Column"><dir name="Filter"><file name="Search.php" hash="973e2fe3ae2ba4853760b8b6bc129af5"/></dir><dir name="Renderer"><file name="ProductShare.php" hash="0a588b847f57f428ae8be4cd5be073fc"/></dir></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="c4e1052cb3c1390def3924687251e527"/></dir><dir name="controllers"><file name="ShareController.php" hash="af1b2dcb8def550c174de6d89ff800ab"/></dir><dir name="etc"><file name="adminhtml.xml" hash="d22fec093ef89647e6cb58dec456ed1c"/><file name="config.xml" hash="7a2b82b235524bd630cb909c5241217b"/><file name="system.xml" hash="f6e6e6267a05350c54b1ed204fdc24fc"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Cartin24_ProductShare.xml" hash="64c3bcc42aeccbf730838ce0e1e94f4e"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="productshare.xml" hash="ac69821026b16fe10d128cdcc422d754"/></dir><dir name="template"><dir name="productshare"><dir name="share"><file name="grid.phtml" hash="fdf8dd1b69ae2301b0a6fb60b1ba296a"/></dir></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="images"><dir name="productshare"><file name="facebook.png" hash="326914f7921f06557a613986baa3f12f"/><file name="google_plus.png" hash="4d3f7a16155319d29f671da142d03c1c"/><file name="pinterest.png" hash="c1a6ad21ac6d23b3a0d5ecfd110830c4"/><file name="twitter.png" hash="292d563707f1f013d38129805a62768c"/></dir></dir></dir></dir></dir></target></contents>
+    <date>2015-05-22</date>
+    <time>15:49:21</time>
+    <contents><target name="magecommunity"><dir name="Cartin24"><dir name="ProductShare"><dir name="Block"><dir name="Adminhtml"><dir name="Share"><dir name="Grid"><dir name="Renderer"><file name="Image.php" hash="b55077fb61e6025897188e0a381bab14"/></dir></dir></dir></dir><dir name="Share"><file name="Grid.php" hash="899d596d1ff8ecbc33086c448723f04e"/></dir><dir name="Widget"><dir name="Grid"><dir name="Column"><dir name="Filter"><file name="Search.php" hash="973e2fe3ae2ba4853760b8b6bc129af5"/></dir><dir name="Renderer"><file name="ProductShare.php" hash="0a588b847f57f428ae8be4cd5be073fc"/></dir></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="c4e1052cb3c1390def3924687251e527"/></dir><dir name="controllers"><file name="ShareController.php" hash="f50743b6b5ca76e0f8e1c7e81010706d"/></dir><dir name="etc"><file name="adminhtml.xml" hash="d22fec093ef89647e6cb58dec456ed1c"/><file name="config.xml" hash="7a2b82b235524bd630cb909c5241217b"/><file name="system.xml" hash="f6e6e6267a05350c54b1ed204fdc24fc"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="productshare.xml" hash="ac69821026b16fe10d128cdcc422d754"/></dir><dir name="template"><dir name="productshare"><dir name="share"><file name="grid.phtml" hash="fdf8dd1b69ae2301b0a6fb60b1ba296a"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Cartin24_ProductShare.xml" hash="64c3bcc42aeccbf730838ce0e1e94f4e"/></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="images"><dir name="productshare"><file name="facebook.png" hash="326914f7921f06557a613986baa3f12f"/><file name="google_plus.png" hash="4d3f7a16155319d29f671da142d03c1c"/><file name="pinterest.png" hash="c1a6ad21ac6d23b3a0d5ecfd110830c4"/><file name="twitter.png" hash="292d563707f1f013d38129805a62768c"/></dir></dir></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
