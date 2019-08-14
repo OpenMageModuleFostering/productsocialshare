@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <productshare_share_grid>
+        <reference name="content">
+            <block type="productshare/share_grid" name="productgrid" template="productshare/share/grid.phtml">
+				<block type="adminhtml/store_switcher" name="store_switcher" as="store_switcher">
+                    <action method="setUseConfirm"><params>0</params></action>
+                </block>
+			</block>
+        </reference>
+    </productshare_share_grid>
+</layout>

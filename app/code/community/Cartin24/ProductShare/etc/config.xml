@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Cartin24_ProductShare>
+      <version>1.0.0</version>
+    </Cartin24_ProductShare>
+  </modules>
+  <global>
+    <blocks>
+      <productshare>
+        <class>Cartin24_ProductShare_Block</class>
+      </productshare>
+    </blocks>
+    <helpers>
+      <productshare>
+        <class>Cartin24_ProductShare_Helper</class>
+      </productshare>
+    </helpers>
+  </global>
+  <adminhtml>
+    <menu>
+      <promo>
+        <children>
+          <productshare translate="title" module="productshare">
+            <title>Product Share</title>
+            <sort_order>20</sort_order>
+            <action>productshare/share/grid</action>
+          </productshare>
+        </children>
+      </promo>
+    </menu>
+	<acl>
+	  <resources>
+		<all>
+		  <title>Allow Everything</title>
+		</all>
+		<admin>
+			<children>
+			  <promo>
+				<children>
+				  <productshare translate="title" module="productshare">
+					<title>Product Share</title>
+				  </productshare>
+				</children>
+			  </promo>
+			</children>
+      </admin>
+	  </resources>
+	</acl>
+    <layout>
+      <updates>
+        <productshare>
+          <file>productshare.xml</file>
+        </productshare>
+      </updates>
+    </layout>
+  </adminhtml>
+  <admin>
+    <routers>
+      <productshare>
+        <use>admin</use>
+        <args>
+          <module>Cartin24_ProductShare</module>
+          <frontName>productshare</frontName>
+        </args>
+      </productshare>
+    </routers>
+  </admin>
+</config>
