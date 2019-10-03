@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/productsocialshare",
+    "name": "OpenMageModuleFostering\/productsocialshare",
     "type": "magento-module",
     "license": "-Academic-Free-License",
     "homepage": "",
     "description": "Let Admin to share the products on popular social networks.",
     "authors": [
-    {
-        "name": "Cartin24",
-        "email": "developer@cartin24.com"
-    }
-],
+        {
+            "name": "Cartin24",
+            "email": "developer@cartin24.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
